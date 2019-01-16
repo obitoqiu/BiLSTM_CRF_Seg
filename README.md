@@ -1,7 +1,7 @@
 # bi-lstm_crf_seg
 ## Use lstm and crf  in keras  to achieve Chinese word segement
 ### 简介
-preprocess.py:      文件预处理（将分好词的训练集转换为三标签（B:词头 I:词中 S:单字词）序列标注的形式）</br>
+'preprocess.py':      文件预处理（将分好词的训练集转换为三标签（B:词头 I:词中 S:单字词）序列标注的形式）</br>
 </br>
 process.py:         将文本序列化为模型输入、输出标准格式</br>
 </br>
