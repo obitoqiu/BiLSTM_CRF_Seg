@@ -22,11 +22,9 @@
 ### 运行顺序
 `test.py`（也可选择其他本地词向量）</br>
 `preprocess.py`—>`process.py`—>`train.py`—>`predict.py`</br>
-`score.perl`</br>
------------------
+
 ### 评估
------------------
-脚本需要在linux下运行 </br>
+脚本需要在linux下运行命令行 </br>
 chmod a+x score.perl   ./score.perl 字典文件路径 标准分词结果路径 预测分词结果路径 >评估结果保存路径</br>
 sighan2004语料,epoch=5的训练模型评估结果：</br>
 2 Bi-LSTM layer + CRF & word embedding[50]
